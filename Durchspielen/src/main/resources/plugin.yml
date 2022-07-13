@@ -1,0 +1,8 @@
+name: Durchspielen
+version: '${project.version}'
+main: tv.aysu.Durchspielen
+api-version: 1.19
+authors: [Elias]
+depend: [ProtocolLib]
+commands:
+  Game:
