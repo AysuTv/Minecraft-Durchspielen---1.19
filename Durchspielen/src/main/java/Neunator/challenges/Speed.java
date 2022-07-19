@@ -28,7 +28,7 @@ public class Speed implements CommandExecutor {
             sender.sendMessage("Du bist nun Schneller");
         }else
             sender.sendMessage("Du bist kein Spieler!");
-
+            sender.sendMessage("Test");
         return true;
     }
 }
