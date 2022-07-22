@@ -12,7 +12,7 @@ public class HalbesHerz implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (sender instanceof Player){
             Player p = (Player) sender;
-            p.setMaxHealth(1););
+            p.setMaxHealth(1);
             p.removePotionEffect(PotionEffectType.SLOW);
             p.removePotionEffect(PotionEffectType.BLINDNESS);
             p.removePotionEffect(PotionEffectType.JUMP);
